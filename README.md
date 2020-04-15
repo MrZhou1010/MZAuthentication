@@ -9,3 +9,8 @@
  *
  */
 + (void)authenticationWithFallBackTitle:(NSString *)fallBackTitle localizedReason:(NSString *)reasonTitle reply:(void(^)(BOOL success, NSError *error, NSString *msg))callBlock
+
+
+[MZAuthentication authenticationWithFallBackTitle:@"验证登录密码" localizedReason:@"通过Home健验证已有手机指纹" reply:^(BOOL success, NSError *error, NSString *msg) {
+        NSlog(@"%@", msg);
+    }];
