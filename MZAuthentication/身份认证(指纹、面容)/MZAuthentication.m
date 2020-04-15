@@ -1,33 +1,33 @@
 //
-//  MZFingerPrintVerify.m
-//  MZFingerPrintVerify
+//  MZAuthentication.m
+//  MZAuthentication
 //
 //  Created by Mr.Z on 2020/4/2.
 //  Copyright © 2020 Mr.Z. All rights reserved.
 //
 
-#import "MZFingerPrintVerify.h"
+#import "MZAuthentication.h"
 #import <UIKit/UIKit.h>
 #import <LocalAuthentication/LocalAuthentication.h>
 
-@implementation MZFingerPrintVerify
+@implementation MZAuthentication
 
-+ (void)fingerPrintVerifyWithFallBackTitle:(NSString *)fallBackTitle localizedReason:(NSString *)reasonTitle reply:(void(^)(BOOL success, NSError *error, NSString *msg))fingerBlock {
++ (void)authenticationWithFallBackTitle:(NSString *)fallBackTitle localizedReason:(NSString *)reasonTitle reply:(void(^)(BOOL success, NSError *error, NSString *msg))callBlock {
     LAContext *context = [[LAContext alloc] init];
     context.localizedFallbackTitle = fallBackTitle;
     NSError *err = nil;
-    BOOL canEvaluatePolicy = [context canEvaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics error:&err];
+    BOOL canEvaluatePolicy = [context canEvaluatePolicy:LAPolicyDeviceOwnerAuthentication error:&err];
     if (canEvaluatePolicy) {
-        [context evaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics localizedReason:reasonTitle reply:^(BOOL success, NSError *error) {
+        [context evaluatePolicy:LAPolicyDeviceOwnerAuthentication localizedReason:reasonTitle reply:^(BOOL success, NSError *error) {
             NSString *errMsg = [self referenceErrorCode:error.code fallBack:fallBackTitle];
             dispatch_async(dispatch_get_main_queue(), ^{
-                fingerBlock(success, error, errMsg);
+                callBlock(success, error, errMsg);
             });
         }];
     } else {
         NSString *errMsg = [self referenceErrorCode:err.code fallBack:fallBackTitle];
         dispatch_async(dispatch_get_main_queue(), ^{
-            fingerBlock(NO, err, errMsg);
+            callBlock(NO, err, errMsg);
         });
     }
 }
@@ -50,13 +50,13 @@
         case LAErrorPasscodeNotSet:
             return @"系统未设置密码";
             break;
-        case LAErrorTouchIDNotAvailable:
+        case LAErrorBiometryNotAvailable:
             return @"设备Touch ID不可用，例如未打开";
             break;
-        case LAErrorTouchIDNotEnrolled:
+        case LAErrorBiometryNotEnrolled:
             return @"设备Touch ID不可用，用户未录入";
             break;
-        case LAErrorTouchIDLockout:
+        case LAErrorBiometryLockout:
             return @"身份验证未成功，多次使用Touch ID失败";
             break;
         case LAErrorAppCancel:

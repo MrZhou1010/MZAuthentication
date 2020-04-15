@@ -14,9 +14,9 @@
 		B485AE232435D8CD007685E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B485AE222435D8CD007685E6 /* Assets.xcassets */; };
 		B485AE262435D8CD007685E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B485AE242435D8CD007685E6 /* LaunchScreen.storyboard */; };
 		B485AE292435D8CD007685E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B485AE282435D8CD007685E6 /* main.m */; };
-		B485AE332435D8CD007685E6 /* MZFingerPrintVerifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B485AE322435D8CD007685E6 /* MZFingerPrintVerifyTests.m */; };
-		B485AE3E2435D8CD007685E6 /* MZFingerPrintVerifyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B485AE3D2435D8CD007685E6 /* MZFingerPrintVerifyUITests.m */; };
-		B485AE4E2435DA1C007685E6 /* MZFingerPrintVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = B485AE4D2435DA1C007685E6 /* MZFingerPrintVerify.m */; };
+		B485AE332435D8CD007685E6 /* MZAuthenticationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B485AE322435D8CD007685E6 /* MZAuthenticationTests.m */; };
+		B485AE3E2435D8CD007685E6 /* MZAuthenticationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B485AE3D2435D8CD007685E6 /* MZAuthenticationUITests.m */; };
+		B485AE4E2435DA1C007685E6 /* MZAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = B485AE4D2435DA1C007685E6 /* MZAuthentication.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B485AE132435D8BF007685E6 /* MZFingerPrintVerify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZFingerPrintVerify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B485AE132435D8BF007685E6 /* MZAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B485AE162435D8BF007685E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B485AE172435D8BF007685E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B485AE192435D8BF007685E6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -49,14 +49,14 @@
 		B485AE252435D8CD007685E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B485AE272435D8CD007685E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B485AE282435D8CD007685E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B485AE2E2435D8CD007685E6 /* MZFingerPrintVerifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZFingerPrintVerifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B485AE322435D8CD007685E6 /* MZFingerPrintVerifyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZFingerPrintVerifyTests.m; sourceTree = "<group>"; };
+		B485AE2E2435D8CD007685E6 /* MZAuthenticationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZAuthenticationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B485AE322435D8CD007685E6 /* MZAuthenticationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZAuthenticationTests.m; sourceTree = "<group>"; };
 		B485AE342435D8CD007685E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B485AE392435D8CD007685E6 /* MZFingerPrintVerifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZFingerPrintVerifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B485AE3D2435D8CD007685E6 /* MZFingerPrintVerifyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZFingerPrintVerifyUITests.m; sourceTree = "<group>"; };
+		B485AE392435D8CD007685E6 /* MZAuthenticationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZAuthenticationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B485AE3D2435D8CD007685E6 /* MZAuthenticationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZAuthenticationUITests.m; sourceTree = "<group>"; };
 		B485AE3F2435D8CD007685E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B485AE4C2435DA1C007685E6 /* MZFingerPrintVerify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZFingerPrintVerify.h; sourceTree = "<group>"; };
-		B485AE4D2435DA1C007685E6 /* MZFingerPrintVerify.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZFingerPrintVerify.m; sourceTree = "<group>"; };
+		B485AE4C2435DA1C007685E6 /* MZAuthentication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZAuthentication.h; sourceTree = "<group>"; };
+		B485AE4D2435DA1C007685E6 /* MZAuthentication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZAuthentication.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +87,9 @@
 		B485AE0A2435D8BF007685E6 = {
 			isa = PBXGroup;
 			children = (
-				B485AE152435D8BF007685E6 /* MZFingerPrintVerify */,
-				B485AE312435D8CD007685E6 /* MZFingerPrintVerifyTests */,
-				B485AE3C2435D8CD007685E6 /* MZFingerPrintVerifyUITests */,
+				B485AE152435D8BF007685E6 /* MZAuthentication */,
+				B485AE312435D8CD007685E6 /* MZAuthenticationTests */,
+				B485AE3C2435D8CD007685E6 /* MZAuthenticationUITests */,
 				B485AE142435D8BF007685E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,17 +97,17 @@
 		B485AE142435D8BF007685E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B485AE132435D8BF007685E6 /* MZFingerPrintVerify.app */,
-				B485AE2E2435D8CD007685E6 /* MZFingerPrintVerifyTests.xctest */,
-				B485AE392435D8CD007685E6 /* MZFingerPrintVerifyUITests.xctest */,
+				B485AE132435D8BF007685E6 /* MZAuthentication.app */,
+				B485AE2E2435D8CD007685E6 /* MZAuthenticationTests.xctest */,
+				B485AE392435D8CD007685E6 /* MZAuthenticationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B485AE152435D8BF007685E6 /* MZFingerPrintVerify */ = {
+		B485AE152435D8BF007685E6 /* MZAuthentication */ = {
 			isa = PBXGroup;
 			children = (
-				B485AE4B2435D8EC007685E6 /* 指纹验证 */,
+				B485AE4B2435D8EC007685E6 /* 身份认证(指纹、面容) */,
 				B485AE162435D8BF007685E6 /* AppDelegate.h */,
 				B485AE172435D8BF007685E6 /* AppDelegate.m */,
 				B485AE192435D8BF007685E6 /* SceneDelegate.h */,
@@ -120,42 +120,42 @@
 				B485AE272435D8CD007685E6 /* Info.plist */,
 				B485AE282435D8CD007685E6 /* main.m */,
 			);
-			path = MZFingerPrintVerify;
+			path = MZAuthentication;
 			sourceTree = "<group>";
 		};
-		B485AE312435D8CD007685E6 /* MZFingerPrintVerifyTests */ = {
+		B485AE312435D8CD007685E6 /* MZAuthenticationTests */ = {
 			isa = PBXGroup;
 			children = (
-				B485AE322435D8CD007685E6 /* MZFingerPrintVerifyTests.m */,
+				B485AE322435D8CD007685E6 /* MZAuthenticationTests.m */,
 				B485AE342435D8CD007685E6 /* Info.plist */,
 			);
-			path = MZFingerPrintVerifyTests;
+			path = MZAuthenticationTests;
 			sourceTree = "<group>";
 		};
-		B485AE3C2435D8CD007685E6 /* MZFingerPrintVerifyUITests */ = {
+		B485AE3C2435D8CD007685E6 /* MZAuthenticationUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B485AE3D2435D8CD007685E6 /* MZFingerPrintVerifyUITests.m */,
+				B485AE3D2435D8CD007685E6 /* MZAuthenticationUITests.m */,
 				B485AE3F2435D8CD007685E6 /* Info.plist */,
 			);
-			path = MZFingerPrintVerifyUITests;
+			path = MZAuthenticationUITests;
 			sourceTree = "<group>";
 		};
-		B485AE4B2435D8EC007685E6 /* 指纹验证 */ = {
+		B485AE4B2435D8EC007685E6 /* 身份认证(指纹、面容) */ = {
 			isa = PBXGroup;
 			children = (
-				B485AE4C2435DA1C007685E6 /* MZFingerPrintVerify.h */,
-				B485AE4D2435DA1C007685E6 /* MZFingerPrintVerify.m */,
+				B485AE4C2435DA1C007685E6 /* MZAuthentication.h */,
+				B485AE4D2435DA1C007685E6 /* MZAuthentication.m */,
 			);
-			path = "指纹验证";
+			path = "身份认证(指纹、面容)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B485AE122435D8BF007685E6 /* MZFingerPrintVerify */ = {
+		B485AE122435D8BF007685E6 /* MZAuthentication */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B485AE422435D8CD007685E6 /* Build configuration list for PBXNativeTarget "MZFingerPrintVerify" */;
+			buildConfigurationList = B485AE422435D8CD007685E6 /* Build configuration list for PBXNativeTarget "MZAuthentication" */;
 			buildPhases = (
 				B485AE0F2435D8BF007685E6 /* Sources */,
 				B485AE102435D8BF007685E6 /* Frameworks */,
@@ -165,14 +165,14 @@
 			);
 			dependencies = (
 			);
-			name = MZFingerPrintVerify;
+			name = MZAuthentication;
 			productName = MZFingerPrintVerify;
-			productReference = B485AE132435D8BF007685E6 /* MZFingerPrintVerify.app */;
+			productReference = B485AE132435D8BF007685E6 /* MZAuthentication.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B485AE2D2435D8CD007685E6 /* MZFingerPrintVerifyTests */ = {
+		B485AE2D2435D8CD007685E6 /* MZAuthenticationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B485AE452435D8CD007685E6 /* Build configuration list for PBXNativeTarget "MZFingerPrintVerifyTests" */;
+			buildConfigurationList = B485AE452435D8CD007685E6 /* Build configuration list for PBXNativeTarget "MZAuthenticationTests" */;
 			buildPhases = (
 				B485AE2A2435D8CD007685E6 /* Sources */,
 				B485AE2B2435D8CD007685E6 /* Frameworks */,
@@ -183,14 +183,14 @@
 			dependencies = (
 				B485AE302435D8CD007685E6 /* PBXTargetDependency */,
 			);
-			name = MZFingerPrintVerifyTests;
+			name = MZAuthenticationTests;
 			productName = MZFingerPrintVerifyTests;
-			productReference = B485AE2E2435D8CD007685E6 /* MZFingerPrintVerifyTests.xctest */;
+			productReference = B485AE2E2435D8CD007685E6 /* MZAuthenticationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B485AE382435D8CD007685E6 /* MZFingerPrintVerifyUITests */ = {
+		B485AE382435D8CD007685E6 /* MZAuthenticationUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B485AE482435D8CD007685E6 /* Build configuration list for PBXNativeTarget "MZFingerPrintVerifyUITests" */;
+			buildConfigurationList = B485AE482435D8CD007685E6 /* Build configuration list for PBXNativeTarget "MZAuthenticationUITests" */;
 			buildPhases = (
 				B485AE352435D8CD007685E6 /* Sources */,
 				B485AE362435D8CD007685E6 /* Frameworks */,
@@ -201,9 +201,9 @@
 			dependencies = (
 				B485AE3B2435D8CD007685E6 /* PBXTargetDependency */,
 			);
-			name = MZFingerPrintVerifyUITests;
+			name = MZAuthenticationUITests;
 			productName = MZFingerPrintVerifyUITests;
-			productReference = B485AE392435D8CD007685E6 /* MZFingerPrintVerifyUITests.xctest */;
+			productReference = B485AE392435D8CD007685E6 /* MZAuthenticationUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -228,7 +228,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B485AE0E2435D8BF007685E6 /* Build configuration list for PBXProject "MZFingerPrintVerify" */;
+			buildConfigurationList = B485AE0E2435D8BF007685E6 /* Build configuration list for PBXProject "MZAuthentication" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -241,9 +241,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B485AE122435D8BF007685E6 /* MZFingerPrintVerify */,
-				B485AE2D2435D8CD007685E6 /* MZFingerPrintVerifyTests */,
-				B485AE382435D8CD007685E6 /* MZFingerPrintVerifyUITests */,
+				B485AE122435D8BF007685E6 /* MZAuthentication */,
+				B485AE2D2435D8CD007685E6 /* MZAuthenticationTests */,
+				B485AE382435D8CD007685E6 /* MZAuthenticationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,7 +284,7 @@
 				B485AE182435D8BF007685E6 /* AppDelegate.m in Sources */,
 				B485AE292435D8CD007685E6 /* main.m in Sources */,
 				B485AE1B2435D8BF007685E6 /* SceneDelegate.m in Sources */,
-				B485AE4E2435DA1C007685E6 /* MZFingerPrintVerify.m in Sources */,
+				B485AE4E2435DA1C007685E6 /* MZAuthentication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B485AE332435D8CD007685E6 /* MZFingerPrintVerifyTests.m in Sources */,
+				B485AE332435D8CD007685E6 /* MZAuthenticationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B485AE3E2435D8CD007685E6 /* MZFingerPrintVerifyUITests.m in Sources */,
+				B485AE3E2435D8CD007685E6 /* MZAuthenticationUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,12 +309,12 @@
 /* Begin PBXTargetDependency section */
 		B485AE302435D8CD007685E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B485AE122435D8BF007685E6 /* MZFingerPrintVerify */;
+			target = B485AE122435D8BF007685E6 /* MZAuthentication */;
 			targetProxy = B485AE2F2435D8CD007685E6 /* PBXContainerItemProxy */;
 		};
 		B485AE3B2435D8CD007685E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B485AE122435D8BF007685E6 /* MZFingerPrintVerify */;
+			target = B485AE122435D8BF007685E6 /* MZAuthentication */;
 			targetProxy = B485AE3A2435D8CD007685E6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -454,14 +454,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5CA34Y2P7T;
-				INFOPLIST_FILE = MZFingerPrintVerify/Info.plist;
+				DEVELOPMENT_TEAM = 4GKD84VMPR;
+				INFOPLIST_FILE = MZAuthentication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.git.mz.MZFingerPrintVerify;
+				PRODUCT_BUNDLE_IDENTIFIER = com.git.mz.MZAuthentication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -472,14 +473,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5CA34Y2P7T;
-				INFOPLIST_FILE = MZFingerPrintVerify/Info.plist;
+				DEVELOPMENT_TEAM = 4GKD84VMPR;
+				INFOPLIST_FILE = MZAuthentication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.git.mz.MZFingerPrintVerify;
+				PRODUCT_BUNDLE_IDENTIFIER = com.git.mz.MZAuthentication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -490,17 +492,17 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MZFingerPrintVerifyTests/Info.plist;
+				INFOPLIST_FILE = MZAuthenticationTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.git.mz.MZFingerPrintVerifyTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.git.mz.MZAuthenticationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZFingerPrintVerify.app/MZFingerPrintVerify";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZAuthentication.app/MZAuthentication";
 			};
 			name = Debug;
 		};
@@ -509,17 +511,17 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MZFingerPrintVerifyTests/Info.plist;
+				INFOPLIST_FILE = MZAuthenticationTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.git.mz.MZFingerPrintVerifyTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.git.mz.MZAuthenticationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZFingerPrintVerify.app/MZFingerPrintVerify";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZAuthentication.app/MZAuthentication";
 			};
 			name = Release;
 		};
@@ -527,16 +529,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MZFingerPrintVerifyUITests/Info.plist;
+				INFOPLIST_FILE = MZAuthenticationUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.git.mz.MZFingerPrintVerifyUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.git.mz.MZAuthenticationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MZFingerPrintVerify;
+				TEST_TARGET_NAME = MZAuthentication;
 			};
 			name = Debug;
 		};
@@ -544,23 +546,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MZFingerPrintVerifyUITests/Info.plist;
+				INFOPLIST_FILE = MZAuthenticationUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.git.mz.MZFingerPrintVerifyUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.git.mz.MZAuthenticationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MZFingerPrintVerify;
+				TEST_TARGET_NAME = MZAuthentication;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B485AE0E2435D8BF007685E6 /* Build configuration list for PBXProject "MZFingerPrintVerify" */ = {
+		B485AE0E2435D8BF007685E6 /* Build configuration list for PBXProject "MZAuthentication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B485AE402435D8CD007685E6 /* Debug */,
@@ -569,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B485AE422435D8CD007685E6 /* Build configuration list for PBXNativeTarget "MZFingerPrintVerify" */ = {
+		B485AE422435D8CD007685E6 /* Build configuration list for PBXNativeTarget "MZAuthentication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B485AE432435D8CD007685E6 /* Debug */,
@@ -578,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B485AE452435D8CD007685E6 /* Build configuration list for PBXNativeTarget "MZFingerPrintVerifyTests" */ = {
+		B485AE452435D8CD007685E6 /* Build configuration list for PBXNativeTarget "MZAuthenticationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B485AE462435D8CD007685E6 /* Debug */,
@@ -587,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B485AE482435D8CD007685E6 /* Build configuration list for PBXNativeTarget "MZFingerPrintVerifyUITests" */ = {
+		B485AE482435D8CD007685E6 /* Build configuration list for PBXNativeTarget "MZAuthenticationUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B485AE492435D8CD007685E6 /* Debug */,

@@ -1,6 +1,6 @@
 //
-//  MZFingerPrintVerifyUITests.m
-//  MZFingerPrintVerifyUITests
+//  MZAuthenticationUITests.m
+//  MZAuthenticationUITests
 //
 //  Created by Mr.Z on 2020/4/2.
 //  Copyright © 2020 Mr.Z. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface MZFingerPrintVerifyUITests : XCTestCase
+@interface MZAuthenticationUITests : XCTestCase
 
 @end
 
-@implementation MZFingerPrintVerifyUITests
+@implementation MZAuthenticationUITests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
