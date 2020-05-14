@@ -16,9 +16,13 @@
     LAContext *context = [[LAContext alloc] init];
     context.localizedFallbackTitle = fallBackTitle;
     NSError *err = nil;
-    BOOL canEvaluatePolicy = [context canEvaluatePolicy:LAPolicyDeviceOwnerAuthentication error:&err];
+    LAPolicy policy = LAPolicyDeviceOwnerAuthenticationWithBiometrics;
+    if (@available(iOS 9.0, *)) {
+        policy = LAPolicyDeviceOwnerAuthentication;
+    }
+    BOOL canEvaluatePolicy = [context canEvaluatePolicy:policy error:&err];
     if (canEvaluatePolicy) {
-        [context evaluatePolicy:LAPolicyDeviceOwnerAuthentication localizedReason:reasonTitle reply:^(BOOL success, NSError *error) {
+        [context evaluatePolicy:policy localizedReason:reasonTitle reply:^(BOOL success, NSError *error) {
             NSString *errMsg = [self referenceErrorCode:error.code fallBack:fallBackTitle];
             dispatch_async(dispatch_get_main_queue(), ^{
                 callBlock(success, error, errMsg);
