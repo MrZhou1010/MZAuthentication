@@ -20,7 +20,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.navigationItem.title = @"身份认证(指纹、面容)";
     [self.view addSubview:self.imageView];
     [self.view addSubview:self.referenceBtn];
 }
