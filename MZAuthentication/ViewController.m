@@ -29,7 +29,7 @@
 - (UIImageView *)imageView {
     if (!_imageView) {
         _imageView = [[UIImageView alloc] init];
-        _imageView.frame = CGRectMake(170.0, 300.0, 70.0, 70.0);
+        _imageView.frame = CGRectMake((self.view.bounds.size.width - 80.0) * 0.5, 200.0, 80.0, 80.0);
         _imageView.image = [UIImage imageNamed:@"icon_finger"];
     }
     return _imageView;
@@ -39,7 +39,7 @@
     if (!_referenceBtn) {
         _referenceBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         _referenceBtn.backgroundColor = [[UIColor greenColor] colorWithAlphaComponent:0.5];
-        _referenceBtn.frame = CGRectMake(100.0, 450.0, 220.0, 40.0);
+        _referenceBtn.frame = CGRectMake((self.view.bounds.size.width - 220.0) * 0.5, 320.0, 220.0, 40.0);
         _referenceBtn.layer.cornerRadius = 5.0;
         [_referenceBtn setTitle:@"点击验证指纹" forState:UIControlStateNormal];
         [_referenceBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
